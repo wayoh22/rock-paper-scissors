@@ -1,0 +1,53 @@
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <!--title is NOT the title on the webpage, it's for the URL in the browser-->
+    <title>RockPaperScissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="page-title">Rock Paper Scissors</h1>
+        <div class = "round-number">Round 1</div>
+    </header>
+
+    <div class = "game-box">
+        <section class = "play-container">
+            <div class = "play-box">
+                <h2>Player</h2>
+                <img class = "player-selection" src = "Rock.png">
+            </div>
+
+            <div class = "vertical-line"></div>
+
+            <div class = "play-box">
+                <h2>Computer</h2>
+                <img class = "computer-selection" src = "Rock.png">
+            </div>
+        </section>
+
+        <section class = "scoreboard">
+            <div class = "player-score">0</div>
+            <div class = "scoreboard-label">Scoreboard</div>
+            <div class = "computer-score">0</div>
+        </section>
+    </div>
+
+    <div class = "result">Best of 5</div>
+
+    <section class = "choices">
+        <img class = "rock" id = "rock" src = "Rock.png" alt = "Rock">
+        <img class = "paper" id = "paper" src = "Paper.png" alt = "Paper">
+        <img class = "scissors" id = "scissors" src = "Scissors.png"  alt = "Scissors">
+    </section>
+
+    <div class = "reset">
+        <button class = "restart-button"></button>
+    </div>
+    <script src = "script.js"></script>
+</body>
+
+</html>
